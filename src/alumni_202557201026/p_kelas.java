@@ -41,7 +41,7 @@ public class p_kelas extends javax.swing.JPanel {
         tnamakelas = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        ttingkatan = new javax.swing.JComboBox<>();
+        ctingkatan = new javax.swing.JComboBox<>();
         cjurusan = new javax.swing.JComboBox<>();
         jLabel6 = new javax.swing.JLabel();
         cwalikelas = new javax.swing.JComboBox<>();
@@ -176,10 +176,10 @@ public class p_kelas extends javax.swing.JPanel {
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Nama Kelas");
 
-        ttingkatan.setBackground(new java.awt.Color(255, 255, 255));
-        ttingkatan.setForeground(new java.awt.Color(0, 0, 0));
-        ttingkatan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        ttingkatan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        ctingkatan.setBackground(new java.awt.Color(255, 255, 255));
+        ctingkatan.setForeground(new java.awt.Color(0, 0, 0));
+        ctingkatan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        ctingkatan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         cjurusan.setBackground(new java.awt.Color(255, 255, 255));
         cjurusan.setForeground(new java.awt.Color(0, 0, 0));
@@ -206,7 +206,7 @@ public class p_kelas extends javax.swing.JPanel {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(27, 27, 27)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ttingkatan, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(ctingkatan, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(tkodekelas)
                     .addComponent(jLabel3)
                     .addComponent(tnamakelas, javax.swing.GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
@@ -232,7 +232,7 @@ public class p_kelas extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(ttingkatan, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(ctingkatan, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -315,6 +315,7 @@ public class p_kelas extends javax.swing.JPanel {
     private javax.swing.JButton btambahkelas;
     private javax.swing.JButton bubahkelas;
     private javax.swing.JComboBox<String> cjurusan;
+    private javax.swing.JComboBox<String> ctingkatan;
     private javax.swing.JComboBox<String> cwalikelas;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
@@ -334,6 +335,5 @@ public class p_kelas extends javax.swing.JPanel {
     private javax.swing.JTable tblkelas;
     private javax.swing.JTextField tkodekelas;
     private javax.swing.JTextField tnamakelas;
-    private javax.swing.JComboBox<String> ttingkatan;
     // End of variables declaration//GEN-END:variables
 }
